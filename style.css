@@ -1,0 +1,137 @@
+.header{
+    display: flex;
+    border-bottom: 1px #E0E6EA solid;
+    background-color:#F5F8FA;
+}
+.heading1 img{
+    padding-left: 50px;
+
+}
+
+.heading2{
+    display: flex;
+    justify-content:space-between;
+    width: 350px;
+    height: 50px;
+    padding-left: 55%;
+}
+.body{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    /* border: 2px solid red; */
+}
+.left{
+    width: 50%;
+    height: 90%;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05), 0px 15px 35px 0px rgba(43, 64, 78, 0.10);
+    margin-top:40px;
+    /* border: 2px solid blue; */
+}
+.right{
+    margin-right: 700px;
+    margin-top:40px;
+    width: 30%;
+    height: 90%;
+    flex-shrink: 0;
+    border-radius: 0px 6px 6px 0px;
+    background: #1179BF;
+}
+
+.inner1{
+    color: #1D2C3C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 1px solid #F5F7FA;
+    padding-left: 100px;
+    padding-top: 1px;
+}
+.info h4{
+    font-size: 18px;
+    font-weight: 700;
+    width: 220px;
+    height: 32px;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+.info2 h4{
+    padding-left: 100px;
+}
+.names{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+}
+.fn{
+    display: grid;
+    border-radius: 6px;
+    margin-left: 100px;
+}
+.ln{
+    display: grid;
+    margin-right: 30px;
+}
+.em{
+    display: grid;
+    /* padding-top: 20px; */
+    padding-left: 100px;
+    border-bottom: 1px solid #F5F7FA;
+    margin-top: 15px;
+    padding: 25px;
+    padding-left: 100px;
+    padding-bottom: 25px;
+    padding-right: 130px;
+}
+.fn input{
+    background-color: #EDEFF2;
+}
+.ln input{
+    background-color: #EDEFF2;
+}
+.cc{
+    padding-left: 100px;
+    border-bottom: 1px solid #F5F7FA;
+    display: grid;
+}
+.cc input{
+    width: 430px;
+    margin-bottom: 25px;
+}
+.Register button{
+    width: 440px;
+    height: 40px;
+    flex-shrink: 0;
+    background: var(--CL-Green, #038E7D);
+    filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.10));
+    border: none;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.help{
+    text-align: center;
+}
+.freelancer{
+    margin: 50px 50px;
+    color: #E0E6EA;
+}
+.freelancer2{
+    margin: 50px 50px;
+    color: #E0E6EA;
+    border-bottom: 0.02px solid #F5F7FA;
+}
+.Kirk{
+    display: flex;
+    padding-left: 50px;
+}
+.Kirk p{
+    color: #F5F7FA;
+    padding-left: 15px;
+}
